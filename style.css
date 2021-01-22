@@ -20,7 +20,7 @@ h1{
     align-items: center;
     width: 100vw;
     height: 12vh;
-    background-color: #30639B;
+    background-color: black;
 }
 
 .logo{
@@ -40,7 +40,7 @@ h1{
     font-family: 'Coda Caption', sans-serif;
     font-size: 50px;
     margin-left: 10%;
-    color: #ED553B;
+    color: white;
 }
 
 .accountLink{
@@ -323,6 +323,10 @@ nav button img{
     padding-left: 4%;
 }
 
+.detail-Info ul li{
+    margin-top: 6px;
+}
+
 .detail-Info li{
     font-size: 15px;
 }
@@ -500,4 +504,34 @@ nav button img{
 
 #choosen{
     background-color: cornflowerblue;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 25vh;
+    padding-top: 1%;
+}
+
+.listRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.listTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer li{
+    font-size: 15px;
+    list-style: none;
+    margin-top: 1%;
+}
+
+footer a{
+    color: white;
 }
